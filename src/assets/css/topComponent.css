@@ -1,0 +1,31 @@
+.top-background {
+  background-image: url("../images/home/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  min-height: 100vh;
+}
+.Top-component-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.Top-component-heading p {
+  margin-right: -200px;
+  font-size: 40px;
+  font-weight: 1000;
+  text-align: center;
+}
+.learnmorebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 300px;
+}
+@media screen and (max-width: 650px) {
+  .Top-component-heading p {
+    font-size: 25px;
+  }
+}

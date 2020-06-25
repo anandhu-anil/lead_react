@@ -1,0 +1,46 @@
+.download-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.download-heading {
+  font-size: 35px;
+  text-align: center;
+}
+.download-sub-heading {
+  text-align: center;
+}
+.download-form-style {
+  border: 0px;
+  background-color: gainsboro;
+  border-radius: 10px;
+}
+.download-form-style:focus,
+.download-form-style:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: gainsboro;
+}
+.download-button-image-dimension {
+  height: 75px;
+  cursor: pointer;
+}
+.download-right-image-dimension {
+  height: 500px;
+  width: 500px;
+}
+
+@media screen and (max-width: 991px) {
+  .download-box {
+    display: block;
+  }
+  .division {
+    display: flex;
+    justify-content: center;
+  }
+  .download-right-image-dimension {
+    height: 50%;
+    width: 50%;
+  }
+}

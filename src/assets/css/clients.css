@@ -1,0 +1,39 @@
+.client-grid {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px 0px;
+}
+.client-grid:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+}
+.client-grid .client-logo-image {
+  overflow: hidden;
+  position: relative;
+}
+.client-grid .client-logo-image a {
+  display: block;
+}
+.client-grid .client-logo-image img {
+  height: 90px;
+}
+.client-title {
+  font-size: 50px;
+}
+.client-content {
+  padding: 15px 0px 0px 0px;
+}
+.client-content p {
+  font-size: 15px;
+}
+/* @media only screen and (max-width: 991px) {
+
+} */
